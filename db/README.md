@@ -1,2 +1,3 @@
-Note: Tested on PostgreSQL10
-Note: Create user flower
+***Note***: Tested on PostgreSQL10
+
+***Note***: Create user flower

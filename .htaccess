@@ -1,0 +1,7 @@
+# Deny listing of the root directory
+Options -Indexes
+
+# Rewrite request without extension to access php files
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
